@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <section className="about-section">
       <div className="about-container">
-        <h1 className="about-heading">About CineVerse</h1>
+        <h1 className="about-heading">About Movie Hub</h1>
 
         <p className="about-para">
           Welcome to <span>Movie Hub</span>, your ultimate destination for
@@ -14,7 +14,6 @@ export const About = () => {
           and detailed insights into your favorite entertainment.
         </p>
 
-        {/* 🔥 Explore Button */}
         <div className="about-btn">
           <NavLink to="/movie" className="explore-btn">
           <i class="fa-solid fa-clapperboard"></i> Explore Movies

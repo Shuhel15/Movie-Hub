@@ -278,8 +278,8 @@ h2 span {
   background: url("/movies.png") no-repeat center center/cover;
   display: flex;
   align-items: center;
-  justify-content: flex-start; 
-  text-align: left;  
+  justify-content: center; 
+  text-align: center;  
   color: white;
   padding: 0 8%;
 }
@@ -298,8 +298,10 @@ h2 span {
 .section-hero .container {
   position: relative;
   z-index: 2;
-  max-width: 600px;
-  margin: 0;            
+  max-width: 800px;
+  margin: 0;  
+  display: flex;
+  text-align: center;          
 }
 
 .hero-heading {
@@ -310,6 +312,9 @@ h2 span {
   font-size: 1.7rem;
   color: #ddd;
   margin-bottom: 30px;
+}
+.section-hero--content{
+  text-align: center;
 }
 
 .btn {
